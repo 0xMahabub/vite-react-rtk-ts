@@ -1,14 +1,18 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 
-import reactLogo from './assets/react.svg'
+// import reactLogo from './assets/react.svg'
 import './App.css'
-import Hello from './components/Hello/Hello'
+import Hello from './components/hello/Hello'
+import Counter from './components/counter/Counter'
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
 
   return (
-    <Hello />
+    <>
+      <Hello />
+      <Counter />
+    </>
     // <div className="App">
     //   <div>
     //     <a href="https://vitejs.dev" target="_blank">
