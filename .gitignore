@@ -14,6 +14,7 @@ build
 *.local
 *lock.json
 *.lock
+.husky
 
 # Editor directories and files
 .vscode/*
