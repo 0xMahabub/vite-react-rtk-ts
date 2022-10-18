@@ -11,7 +11,8 @@
     "lint": "eslint . --ext .ts,.tsx,.jsx,.jsx",
     "lint:fix": "eslint . --ext .ts,.tsx,.jsx,.jsx --fix",
     "typecheck": "tsc --noEmit",
-    "prettier": "prettier --write \"**/*.+(json|yml|css|md|mdx)\""
+    "prettier": "prettier --write \"**/*.+(json|yml|css|md|mdx)\"",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.5",
@@ -33,6 +34,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-sort-keys-fix": "^1.1.2",
+    "husky": "^8.0.1",
     "json-server": "^0.17.0",
     "prettier": "^2.7.1",
     "sass": "^1.55.0",
