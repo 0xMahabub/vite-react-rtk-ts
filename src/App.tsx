@@ -2,8 +2,8 @@
 // import reactLogo from './assets/react.svg'
 import { Provider } from 'react-redux'
 
-import Counter from './components/counter/Counter'
 import Hello from './components/hello/Hello'
+import AppRouter from './Routers'
 import { store } from './store'
 import './App.css'
 
@@ -13,7 +13,7 @@ function App() {
   return (
     <Provider store={store}>
       <Hello />
-      <Counter />
+      <AppRouter />
     </Provider>
   )
 }
